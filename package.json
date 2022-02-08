@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BrunoKrugel/pokeapi/issues"
   },
-  "homepage": "https://github.com/BrunoKrugel/pokeapi#readme"
+  "homepage": "https://github.com/BrunoKrugel/pokeapi#readme",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
 }
