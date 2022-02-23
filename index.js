@@ -2,7 +2,7 @@ var axios = require('axios').default;
 
 const getPokemon = async (pokemonName) => {
     await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`).then(response => {
-        return response.data.sprites.front_default
+        return response.data.name
     }).catch(err => console.log(err))
 }
 

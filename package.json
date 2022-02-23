@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BrunoKrugel/pokeapi#readme",
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "^0.25.0",
+    "nodemon": "^2.0.15"
   }
 }
